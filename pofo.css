@@ -29,27 +29,6 @@ header {
   position: relative;
 }
 
-.pixel-border::before,
-.pixel-border::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-
-.pixel-border::before {
-  background-image: url("a497293e-37da-42b6-bf97-cfcd3a3bedda.png");
-  background-repeat: no-repeat;
-  background-position: top left;
-  background-size: cover;
-  width: 1004px;
-  height: 1004px;
-  top: -4px;
-  left: -4px;
-  z-index: 1;
-}
-
 .info-section {
   display: flex;
   justify-content: space-between;
